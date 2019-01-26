@@ -1,23 +1,18 @@
 
 class Card:
     
-    def __init__(self, facing_up):
+    def __init__(self, facing_up=False):
         self.facing_up = facing_up
     
 
 class MemoGame:
 
     def __init__(self):
-        pass
+        self.cards = [Card(), Card()]
 
-    def face_up_card(self, card):
-        pass
-
-    def get_card(self, card):
-        return Card(facing_up=True)
-
+    def face_up_card_at(self, position):
+        self.cards[position].facing_up = True
+    
     def count_facing_up(self):
-        return 0
+        return sum([card.facing_up for card in self.cards]) 
 
-    def get_all_cards(self):
-        return [Card(True)]
