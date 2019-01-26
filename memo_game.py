@@ -1,11 +1,11 @@
 
-class Card():
+class Card:
     
     def __init__(self, facing_up):
         self.facing_up = facing_up
     
 
-class MemoGame():
+class MemoGame:
 
     def __init__(self):
         pass
