@@ -8,9 +8,9 @@ Create a functionality to be used for a memory game application
 
 * I can flip another card
 
-* * If both cards have the same symbol they stay facing up
-
 * * If not, they go back to facing down
+
+* * If both cards have the same symbol they stay facing up
 
 * I can't face up more than two different cards
 
